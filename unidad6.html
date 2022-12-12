@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unidad 6</title>
+	<link rel="stylesheet" href="css/MainStyle.css">
+</head>
+<body>
+	
+	<header>
+		<div class="contenedor"> 
+		<div id="marca">
+			<h1> <span class="resaltado"> 𝐌𝐀𝐓𝐄𝐌𝐀𝐓𝐈𝐂𝐀𝐒 𝐃𝐈𝐒𝐂𝐑𝐄𝐓𝐀𝐒 </span> </h1>
+		</div>
+		<nav>
+			<ul>
+				<li class="actual"><a href="index.html"> Inicio </a> </li>
+					<li> <a href="quienessomos.html">
+						Quienes Somos 
+					</a></li>
+					
+					<li> <a href="contactanos.html">
+						Contactanos 
+					</a></li>
+					
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+	<section id="Titulo2">
+		<div class="contenedor">		
+							
+		</div>
+	</section>
+
+	<section id="main">
+		<div class="contenedor">
+			<article id="main-col">
+				
+				<center> <h2> 𝙰𝚁𝙱𝙾𝙻𝙴𝚂 𝚈 𝚁𝙴𝙳𝙴𝚂 </h2> </center>
+
+				<p> La red en árbol es una topología de red en la que los nodos están colocados en forma de árbol. Desde una visión topológica, es parecida a una serie de redes en estrella interconectadas salvo en que no tiene un concentrador central. <br> </p>
+
+
+				<aside id="lateral">
+				<div class="oscuro">
+					<center><h3> ＴＥＭＡＲＩＯ </h3> </center>
+					
+					<p> <a href="unidad1.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟏 </center>
+					</a></p>
+
+
+					<p> <a href="unidad2.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟐 </center>
+					</a></p>
+
+
+					<p> <a href="unidad3.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟑 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad4.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟒 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad5.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟓 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad6.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟔 </center>  
+					</a></p>
+
+
+					<!-- <center> <img src="../TheAdmonWeb/F11.jpg" width="240"> </center> -->
+				</div>
+			</aside>	
+
+
+			<img src="../TheDiscretasProject/img/unid10.png" width="800" height="380">
+
+				
+				<br><br><br>
+				<center> 6.1 ARBOLES </center> 
+			<p> Un grafo conectado que contiene circuitos no simples se llama árbol. En el año de 1857 Arthur Cayley, matemático inglés, los empleó para contabilizar componentes químicos, no obstante, es importante señalar que no solo es una herramienta de la química, sino que se han utilizado en diversas áreas, por ejemplo, conforme el propio interés de la materia encaminado hacia las ciencias de la computación se utiliza para la construcción de las redes.<br><br>
+
+				<center> 6.1.1 Propiedades de los árboles </center> <br><br>
+				Entre las propiedades más importantes de los árboles está la presencia de un paseo entre cualquiera de dos vértices del árbol; segundo, que el número de vértices no es menor al número de aristas del árbol y que un árbol con más de dos vértices tiene por lo menos dos hojas.<br>
+
+				Un ejemplo claro de los árboles en la vida cotidiana son los árboles genealógicos. Para este caso, los vértices representan a los miembros de la familia y los arcos representan la relación de parentesco. Conforme los conocimientos adquiridos con anterioridad, el árbol no deja de ser un grafo, pero es del tipo no dirigido.<br>
+
+				Ejemplo de árbol genealógico:
+				En este ejemplo cabe señalar que los recuadros representan los vértices del grafo y los arcos son las líneas que representan las relaciones de parentesco conforme a esta familia:<br><br>
+
+				<center> <img src="../TheDiscretasProject/img/unid7.png" width="500" height="250"> </center> <br> <br>
+
+				<center> Representación de árboles </center><br><br>
+			El árbol es un grafo no dirigido conectado con circuitos no simples; además, no contiene arcos múltiples, con la propiedad de que hay un único camino simple entre cada par de vértices, teniendo el siguiente teorema:
+
+			Teorema 1. “Un grafo no dirigido es un árbol si y solo si hay un camino simple único entre cualesquiera dos de sus vértices”.
+
+			Conforme los siguientes grafos, ¿cuál de ellos es del tipo de árboles?
+			Ejemplo:
+			¿Cuáles de los grafos de la figura 6.2 son árboles?<br><br>
+
+			<center> <img src="../TheDiscretasProject/img/unid8.png" width="600" height="300"> </center> <br> <br>
+
+			Fig. 6.2 Grafo 1,2 y 3
+			Si se observan los siguientes grafos, se concluye que el grafo G1 no es un árbol porque se observa un circuito simple, pero los grafos G2 Y G3 son de árboles, porque están conectados con circuitos no simples.
+			Como se sabe, existen grafos que no tienen conexión y podría existir confusión el pensar que un árbol es un grafo conectado que tiene circuitos no simples, pero es importante mencionar que existen árboles del tipo que contienen circuitos no simples que no necesariamente están conectados, y esos árboles reciben el nombre de bosques, cuya característica es que cada uno de sus componentes conectados es un árbol.<br><br>
+
+			En gran parte de las aplicaciones de árboles, se designa a un vértice particular del árbol como la raíz, por lo que se pude asignar una dirección a cada arco, debido que hay un camino único de la raíz a cada vértice del grafo dirigiéndose cada arco alejándose de la raíz, conforme lo enunciado en el teorema 1, en el apartado 6.1.2, por lo tanto es un grafo de árbol con raíz, esto es simplemente el árbol que junto con su raíz forman un grafo y en caso que fuesen diferentes s vértices como raíz, se producen diferentes árboles con raíz.<br><br>
+
+			<center> 6.1.2 Clasificación por altura y número de nodos </center> <br> <br>
+			Altura<br>
+			La altura (o profundidad) de un árbol es el largo del mayor camino de la raíz a una hoja.
+			Dado un camino < v0, v1, v2, ..., VK> el largo de este camino es k.
+			Por lo cual el largo de un camino es igual al número de arcos del camino.<br><br>
+
+			Es el término usado para referirse a un vértice de un árbol con raíz.<br>
+
+Un árbol estrictamente binario con n hojas siempre contiene 2n - 1 nodos. El nivel de un nodo en árbol binario se define del modo siguiente: la raíz del árbol tiene el nivel 0, el nivel de cualquier otro nodo en el árbol es uno más que el nivel de su padre.
+
+Si un árbol binario contiene m nodos en el nivel I, contiene cuando mucho 2m nodos en el nivel I + 1. Dado que un árbol binario solo contiene un nodo en el nivel 0 (raíz), puede contener un máximo de 2I nodos en el nivel I. Un árbol binario completo de profundidad d es el árbol que contiene 2I nodos en el nivel I entre 0 y d. La cantidad total de nodos en un árbol binario completo de profundidad d, tn es igual a la suma de la cantidad de nodos en cada nivel entre 0 yd.<br><br>
+
+Un árbol binario de profundidad d es un árbol binario casi completo si:
+Cualquier nodo nd a un nivel menor que d - 1tiene 2 hijos.
+Para cualquier nodo nd en el árbol con un descendiente derecho en el nivel d, nd debe tener 1 hijo izquierdo y cada descendiente izquierdo de nd es una hoja en el nivel d o tiene 2 hijos.<br><br>
+
+Los nodos de un árbol binario casi completo se enumeran para que se asigne a la raíz el No.1, se asigne a un hijo izquierdo 2 veces el número asignado a su padre y se asigne a un hijo derecho 1 más el doble del No. asignado a su padre. Un árbol estrictamente binario casi completo con n hojas tiene 2n - 1nodos, como cualquier otro árbol estrictamente binario con n hojas. Un árbol binario casi completo con n hojas que no es estrictamente binario tiene 2n nodos.<br><br>
+
+Solo hay un árbol binario casi completo con n nodos. Este árbol es estrictamente binario si y solo si n es impar<br><br>
+
+<center> 6.2 Arboles con peso. (Recubridor mínimo) </center> <br><br>
+
+Dado un grafo conexo, un árbol recubridor mínimo de ese grafo es un subgrafo que tiene que ser un árbol y contener todos los vértices del grafo inicial. Cada arista tiene asignado un peso proporcional entre ellos, que es un número representativo de algún objeto, distancia, etc.., y se usa para asignar un peso total al árbol recubridor mínimo computando la suma de todos los pesos de las aristas del árbol en cuestión. Un árbol recubridor mínimo o un árbol expandido mínimo es un árbol recubridor que pesa menos o igual que otros árboles recubridores. Todo grafo tiene un bosque recubridor mínimo. En el caso de un empate, porque podría haber más de un árbol recubridor mínimo; en particular, si todos los pesos son iguales, todo árbol recubridor será mínimo. De todas formas, si cada arista tiene un peso distinto existirá sólo un árbol recubridor mínimo. La demostración de esto es trivial y se puede hacer por inducción. Esto ocurre en muchas situaciones de la realidad, como con la compañía de cable en el ejemplo anterior, donde es extraño que dos caminos tengan exactamente el mismo coste. Esto también se generaliza para los bosques recubridores. Si los pesos son positivos, el árbol recubridor mínimo es el subgrafo de menor costo posible conectando todos los vértices, ya que los subgrafos que contienen ciclos necesariamente tienen más peso total. <br><br>
+
+ <center> 6.2.1 Recorrido de un árbol: Preorden, Inorden, Postorden, </center> <br> <br>
+
+En ciencias de la computación, el recorrido de árboles refiere al proceso de visitar de una manera sistemática, exactamente una vez, cada nodo en una estructura de datos de árbol (examinando y/o actualizando los datos en los nodos). Tales recorridos están clasificados por el orden en el cual son visitados los nodos. Los siguientes algoritmos son descritos para un árbol binario, pero también pueden ser generalizados a otros árboles.<br><br>
+Comparado a las estructuras de datos lineales como las listas enlazadas y arreglos unidimensionales, que tienen un método canónico de recorrido, las estructuras arborescentes pueden ser recorridas de muchas maneras diferentes. Comenzando en la raíz de un árbol binario, hay tres pasos principales que pueden ser realizados y el orden en la cual son realizados define el tipo de recorrido.
+Recorrido en preorden
+En este tipo de recorrido se realiza cierta acción (quizás simplemente imprimir por pantalla el valor de la clave de ese nodo) sobre el nodo actual y posteriormente se trata el subárbol izquierdo y cuando se haya concluido, el subárbol derecho. Otra forma para entender el recorrido con este método seria seguir el orden: nodo raíz, nodo izquierdo, nodo derecho.
+En el árbol de la figura el recorrido en preorden sería: 2, 7, 2, 6, 5, 11, 5, 9 y 4.<br><br>
+
+Recorrido en postorden<br>
+En este caso se trata primero el subárbol izquierdo, después el derecho y por último el nodo actual. Otra forma para entender el recorrido con este método seria seguir el orden: nodo izquierdo, nodo derecho, nodo raíz. En el árbol de la figura el recorrido en postorden sería: 2, 5, 11, 6, 7, 4, 9, 5 y 2.<br><br>
+
+Recorrido en inorden
+En este caso se trata primero el subárbol izquierdo, después el nodo actual y por último el subárbol derecho. En un ABB este recorrido daría los valores de clave ordenados de menor a mayor. Otra forma para entender el recorrido con este método seria seguir el orden: nodo izquierdo, nodoraíz,nodo derecho. En el árbol de la figura el recorrido en inorden sería: 2, 7, 5, 6, 11, 2, 5, 4, 9.<br><br>
+
+<center> 6.3 Redes. </center> <br> <br>
+Definición
+Una red de transporte es una gráfica dirigida, simple, con peso y que debe cumplir las siguientes:
+Poseer una fuente o vértice fijo que no tiene aristas de entrada.
+Poseer un sumidero o vértice fijo que no tiene arista de salida.
+El peso Cij, es la arista dirigida de i a j llamado capacidad de “ij” es un número no negativo.
+Una red de transporte es una gráfica dirigida, simple con peso que satisface:
+Un vértice fijo, designado como el origen o fuente, no tiene aristas de entrada.
+Un vértice, designado como destino o sumidero, no tiene aristas salientes.
+El peso Cij de la arista dirigida (i, j) llamada capacidad de (i, j) es un número no negativo<br><br>
+
+<center> 6.3.1 Teorema de flujo máximo </center> <br> <br>
+Es una red G, el flujo máximo. Generalmente existen varios flujos con el mismo valor máximo. Para encontrar el flujo máximo consideremos un flujo inicial en cada arista igual a cero, después se determina un camino específico de la fuente al sumidero y se incrementa el flujo el flujo.
+Si una arista está dirigida hacia la fuente decimos que esta arista está dirigida en forma impropia, en caso contrario está dirigida en forma propia.
+Si se determina un camino P de la fuente al sumidero en donde cada arista de P está orientada en forma propia y el flujo en cada arista es menor que la capacidad de la arista es posible aumentar el valor de flujo.
+Es posible incrementar el flujo en ciertos caminos de la fuente al sumidero que tenga aristas orientadas en forma impropia y propia. Sea P un camino de “a” a “z” y sea “x” un vértice en P que no sea ni “a” ni “z”
+•	Ambas aristas están orientadas en forma propia e impropia, en este caso, si incrementamos el flujo en “, el flujo en la entrada en x seguirá siendo igual al flujo de salida de x.<br><br>
+•	Si incrementamos el flujo en e2 en “, debemos disminuir el flujo en e1 en ‘’ de modo que el flujo de entrada en x siga siendo igual al flujo de salida en x
+•	Es análogo en el caso b
+•	Disminuimos el flujo en ambas aristas en ‘’. En cada caso las asignaciones resultantes de las aristas dan como resultado un flujo.
+Para realizar estas alteraciones debemos tener un flujo menor que la capacidad en una arista orientada en forma propia y un flujo distinto de cero en una arista orientada en forma impropia.
+Teorema 2:
+sea P un camino de “a” a” z” en una red G tal que:
+•	Para arista (i, j) de P, orientada en forma propia. Se define
+F’ij= si no existieran caminos que concuerden con el teorema 2, el flujo es máximo, entonces se considera el algoritmo:<br><br>
+
+•	Iniciar con un flujo<br>
+•	Buscar un camino que satisfaga con las condiciones del teorema 2<br>
+•	Si no existe el camino el fijo es máximo<br>
+•	Se incrementa el flujo en ‘’, y se regresa a línea 2
+A dicho algoritmo se le llama algoritmo etiquetado.<br>
+
+<center> 6.3.2 Teorema de flujo mínimo </center> <br> <br>
+En lo que respecta a las redes, un corte es un conjunto de corte en el
+cual, quedando partes disjuntas del conjunto de vértices, V1 y V2 que,
+situados en la red, dejan la fuente en una de ellas y al sumidero en la
+otra. Se llama capacidad de un corte a la
+suma: Capacidad (v, w); vV1, wV2 1es la
+parte que contiene a la fuente V2 es la
+parte que contiene al sumidero Sea F un
+flujo   en Gy sea (P,  P)  un  corte  en   G.
+Entonces la capacidad de (p, p) es mayor
+o igual que el valor de F.<br> <br>
+
+<center> 6.3.3 Pareos y redes de Petri </center> <br>
+Redes de pareo: Dado un grafo, un pareo es un subconjunto de aristas los cuales no tiene vértices en común. <br> <br>
+
+<center> <img src="../TheDiscretasProject/img/unid9.png" width="500" height="260"> </center> <br> <br>
+
+<br>Redes de Petri
+Una red de Petri es un grafo dirigido bipartito, con un estado inicial, llamado “marcación inicial”. Los dos componentes principales de la red de Petri son los sitios (también conocidos como estados) y las transiciones. Gráficamente, los sitios son dibujados con círculos y las transiciones como barras o rectángulos. Las aristas del grafo son conocidas como arcos. Estos tienen un peso específico, el cual es iniciado por un numero entero positivo, y van de sitio a transición y viceversa. Por simplicidad, el peso de los arcos no se indica cuando este es igual a 1.
+Un arco que este etiquetado con K puede ser interpretado como K arcos paralelos.<br><br>
+
+
+Ejemplo: <br>
+En una gráfica dirigida G= (V, E) donde V= PUT y P’’T=, cualquier arista en E es incidente en un miembro de P y un miembro de T, el conjunto P es el conjunto de lugares y el conjunto T es un conjunto de transiciones.
+Un “marcado de red Petri” asigna a cada lugar un entero no negativo, una red de Petri con un marcado es una “red de Petri marcada” (o simplemente una red Petri).
+Con un marcado se asigna al valor no negativo n al lugar P, decimos que existe n elementos en P, mediante los elementos a representar con los puntos.<br><br>
+
+Los lugares representan condiciones, las transiciones representan eventos, y la presencia de al menos un elemento en un lugar (condición) indica que tal condición se cumple.
+
+<br><br>
+
+
+			</p> <br>
+				 	
+				</div>		
+			</article>		
+				</div>	
+	</section>
+
+	<footer>
+	<p>Por un Futuro Exhuberante &copy; 2022</p>
+</footer>
+
+</body>
+</html>

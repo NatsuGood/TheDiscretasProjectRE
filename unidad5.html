@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Unidad 5</title>
+	<link rel="stylesheet" href="css/MainStyle.css">
+</head>
+<body>
+	
+	<header>
+		<div class="contenedor"> 
+		<div id="marca">
+			<h1> <span class="resaltado"> 𝐌𝐀𝐓𝐄𝐌𝐀𝐓𝐈𝐂𝐀𝐒 𝐃𝐈𝐒𝐂𝐑𝐄𝐓𝐀𝐒 </span> </h1>
+		</div>
+		<nav>
+			<ul>
+				<li class="actual"><a href="index.html"> Inicio </a> </li>
+					<li> <a href="quienessomos.html">
+						Quienes Somos 
+					</a></li>
+					
+					<li> <a href="contactanos.html">
+						Contactanos 
+					</a></li>
+					
+			</ul>
+		</nav>
+		</div>
+	</header>
+
+	<section id="Titulo2">
+		<div class="contenedor">		
+				<center> <h3>  𝚃𝙴𝙾𝚁𝙸𝙰 𝙳𝙴 𝙶𝚁𝙰𝙵𝙾𝚂 </h3> </center>				
+		</div>
+	</section>
+
+	<section id="main">
+		<div class="contenedor">
+			<article id="main-col">
+				
+				<p>La teoría de grafos, también llamada teoría de gráficas, es una rama de la matemática y las ciencias de la computación que estudia las propiedades de los grafos. Los grafos no deben ser confundidos con las gráficas, que es un término muy amplio.
+			</p> <br>
+
+			<aside id="lateral">
+				<div class="oscuro">
+					<center><h3> ＴＥＭＡＲＩＯ </h3> </center>
+					
+					<p> <a href="unidad1.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟏 </center>
+					</a></p>
+
+
+					<p> <a href="unidad2.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟐 </center>
+					</a></p>
+
+
+					<p> <a href="unidad3.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟑 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad4.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟒 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad5.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟓 </center>  
+					</a></p>
+
+
+					<p> <a href="unidad6.html">
+						<center> 𝐔𝐍𝐈𝐃𝐀𝐃 𝟔 </center>  
+					</a></p>
+
+
+					<!-- <center> <img src="../TheDiscretasProject/img/F11.jpg" width="240"> </center> -->
+				</div>
+			</aside>	
+
+			<img src="../TheDiscretasProject/img/unid11.jpg" width="800" height="400"> <br><br>
+
+			<center> 5.1 Elementos, características y componentes de los grafos. </center> <br><br>
+			<p> Elementos
+Un grafo en su totalidad es un par ordenado compuesto por vértices y aristas; donde en la gran mayoría de los casos los vértices son de cuantificación finita.
+El número de vértices que componen al grafo, son las que conocemos como orden. Existe también el concepto de grado que se corresponde al número de arcos al que pertenecen de forma externa y en cuanto a las aristas también conseguimos el concepto de bucle que no es más que una arista relacionada de diversas formas con el mismo nodo.<br><br>
+
+Características
+Principales características que posee un grafo:
+<br><br>•	La matriz de adyacencia
+Si un vértice es aislado entonces la correspondiente fila (columna) está compuesta sólo por ceros. Si el grafo es simple entonces la matriz de adyacencia contiene solo ceros y unos (matriz binaria) y la diagonal está compuesta sólo por ceros.<br><br>
+
+<br><br>•	Matriz de incidencia
+La matriz de incidencia sólo contiene ceros y unos (matriz binaria). Como cada arista incide exactamente en dos vértices, cada columna tiene exactamente dos unos. El número de unos que aparece en cada fila es igual al grado del vértice correspondiente. Una fila compuesta sólo por ceros corresponde a un vértice aislado.
+<br><br>•	Etiquetado
+Se trata de la distinción que se realiza en los vértices mediante una marca que los hace distinguible de otros.
+<br><br>
+
+Componentes:
+Se compone principalmente de:
+
+<br><br>•	Aristas.
+Son las líneas con las que se unen las aristas de un grafo y con la que se construyen también caminos. Si la arista carece de dirección se denota indistintamente {a, b} o {b, a}, siendo a y b los vértices que une. Si {a, b} es una arista, a los vértices a y b se les llama sus extremos.
+
+<br><br>Estas a su vez pueden ser:
+	Aristas Adyacentes: Se dice que dos aristas son adyacentes si convergen en el mismo vértice. 
+	Aristas Paralelas: Se dice que dos aristas son paralelas si vértice inicial y el final son el mismo. 
+	Aristas Cíclicas: Arista que parte de un vértice para entrar en el mismo. 
+	Cruce: Son dos aristas que cruzan en un punto.
+
+<br><br>•	Vértices.
+Son los puntos o nodos con los que está conformado un grafo. Llamaremos grado de un vértice al número de aristas de las que es extremo. Se dice que un vértice es `par' o `impar' según lo sea su grado.
+
+<br><br>Estos a su vez pueden ser: 
+	Vértices Adyacentes: Si tenemos un par de vértices de un grafo (U, V) y si tenemos una arista que los une, entonces U y V son vértices adyacentes y se dice que U es el vértice inicial y V el vértice adyacente. 
+	Vértice Aislado: Es un vértice de grado cero. 
+	Vértice Terminal: Es un vértice de grado 1. <br> <br>
+
+<center> 5.1.1. Tipos de grafos </center> <br> <br>
+•	Grafo simple: <br>
+Se dice que el grafo G = (V, E) es un grafo simple de grado n si todos sus vértices tienen grado n.<br><br>
+
+<center> <img src="../TheDiscretasProject/img/unid12.png" width="300" height="300"><br><br> </center>
+
+<br>•	Grafo completo:
+Un grafo es completo si cada par de vértices está unido por una arista. Se denota por Kn al grafo completo de n vértices. <br><br>
+
+<center> <img src="../TheDiscretasProject/img/unid13.png" width="400" height="400"><br><br> </center>
+
+<br>•	Grafo bipartido:
+Un grafo es bipartido si V=V1?V2 y cada arista de E une un vértice de V1 y otro de V2. <br><br>
+
+<center> <img src="../TheDiscretasProject/img/unid14.png" width="350" height="350"><br><br> </center>
+
+<br> •	Grafo bipartido completo:
+Un grafo es bipartido completo si V=V1?V2 y dos vértices de V están unidos por una arista de E si y solo si un vértice está en V1 y el otro en V2. Se denota por Kr, donde V1 tiene r vértices y V2 tiene s vértices. <br> <br>
+
+<center> <img src="../TheDiscretasProject/img/unid15.png" width="500" height="350"><br><br> </center>
+
+<br>•	Grafos planos:
+Un grafo plano es aquel que puede ser dibujado en el plano sin que ninguna arista se intersecta. <br> <br>
+
+<center> <img src="../TheDiscretasProject/img/unid16.png" width="400" height="300"><br><br> </center>
+
+<br>•	Grafos conexos: 
+Un grafo es conexo si cada par de vértices está conectado por un camino; es decir, si para cualquier par de vértices (a, b), existe al menos un camino posible desde "a" hacia "b". <br><br>
+
+<center> <img src="../TheDiscretasProject/img/unid17.png" width="300" height="300"><br><br> </center>
+
+<br>•	Grafo ponderado:
+Un grafo es ponderado si presenta los pesos de cada arista y se puede determinar la longitud de una ruta, la cual es la suma de todos los pesos de las aristas. <br><br>
+
+<center> <img src="../TheDiscretasProject/img/unid18.png" width="600" height="400"><br><br> </center>
+
+<center> 5.2. Representación de los grafos. </center> <br> <br>
+<center> 5.2.1. Matemática </center> <br>
+En matemáticas y ciencias de la computación, la teoría de grafos, también llamada teoría de loas graficas estudia las propiedades de los grafos (también llamados graficas) Un grafo es un conjunto, no vacío, de objetos llamados vértices (o nodos) y una selección de partes de vértices llamados aristas. <br><br>
+
+<center> 5.2.2 COMPUTACIONAL </center> <br>
+Existen diferentes formas de almacenar grafos en una computadora. La estructura de datos, usada depende de las características del grafo y el algoritmo usado para manipularlo. Entre las estructuras más sencillas y usadas se encuentran las listas y las matrices y aunque frecuentemente se usa una combinación de ambos.
+
+<center> 5.3. Algoritmos de recorrido y búsqueda. </center><br><br>
+
+<center> <br>5.3.1 El camino más corto <br> </center>
+
+El problema de los caminos más cortos es el problema que consiste en encontrar un camino entre dos vértices (o nodos) de tal manera que la suma de los pesos de las aristas que lo constituyen es mínima. Ahora bien, podemos emplear el algoritmo de Dijkstra para estos casos, los pasos o procedimientos a seguir para este algoritmo son los siguientes: Teniendo un grafo dirigido ponderado de N nodos no aislados, sea x el nodo inicial, un vector D de tamaño N guardará al final del algoritmo las distancias desde x al resto de los nodos.<br><br>
+
+•	Inicializar todas las distancias en D con un valor infinito relativo ya que son desconocidas al principio, exceptuando la de x que se debe colocar en 0 debido a que la distancia de x a x sería 0.
+
+<br>•	Sea a = x (tomamos a como nodo actual).
+
+<br>•	Recorremos todos los nodos adyacentes de a, excepto los nodos marcados, llamaremos a estos vi.
+
+<br>•	Si la distancia desde x hasta va guardada en D es mayor que la distancia desde x hasta a, sumada a la distancia desde a hasta vi; esta se sustituye con la segunda nombrada.
+
+<br>•	Marcamos como completo el nodo a.
+
+<br>•	Tomamos como próximo nodo actual el de menor valor en D (puede hacerse almacenándolos valores en una cola de prioridad) y volvemos al paso 3 mientras existan nodos no marcados. <br> <br>
+
+<center> 5.3.2 A lo ancho </center> <br> <br>
+La búsqueda en anchura es otro procedimiento para visitar sistemáticamente todos los vértices de un grafo. Es adecuado especialmente para resolver problemas de optimización, en los que se deba elegir la mejor solución entre varias posibles. Al igual que en la búsqueda en profundidad se comienza en un vértice v (la raíz) que es el primer vértice activo. En el siguiente paso se etiquetan como visitados todos los vecinos del vértice activo que no han sido etiquetados. Se continúa etiquetando todos los vecinos de los hijos de v (que no hayan sido visitados aún). En este proceso nunca se visita un vértice dos veces por lo que se construye un grafo sin ciclos, que será un árbol<br> <br>
+
+<center> 5.3.3 En profundidad </center><br> <br>
+En la búsqueda en profundidad se avanza de vértice en vértice, marcando cada vértice visitado. La búsqueda siempre avanza hacia un vértice no marcado, internándose “profundamente” en el grafo sin repetir ningún vértice. Cuando se alcanza un vértice cuyos vecinos han sido marcados, se retrocede al anterior vértice visitado y se avanza desde éste.<br> <br>
+
+
+				</p>
+				</div>		
+			</article>		
+				</div>	
+	</section>
+
+	<footer>
+	<p>Por un Futuro Exhuberante &copy; 2022</p>
+</footer>
+
+</body>
+</html>
